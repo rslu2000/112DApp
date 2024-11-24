@@ -107,7 +107,7 @@ ethereum.request({ method: 'eth_accounts' }).then(result => myMetaMaskWallet = r
 
 const INFURA_API_KEY = '45a27bf77c7d4f70a744a35738ec07b7';
 web3_sepolia = new Web3(`https://sepolia.infura.io/v3/${INFURA_API_KEY}`);
-mygasprice = web3_sepolia.utils.toWei('9', 'Gwei'); //把16 Gwei轉換成 wei
+mygasprice = web3_sepolia.utils.toWei('18', 'Gwei'); //把16 Gwei轉換成 wei
 // 查詢測試鏈Ｇoerli 的即時gas price可以連上網站 https://stats.goerli.net/ 查詢
 
 web3js= new Web3(ethereum);
